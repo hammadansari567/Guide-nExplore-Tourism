@@ -10,18 +10,3 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
       document.querySelector('.about .video-container .video').src = src;
   }
 })
-
-
-function sendEmail(){
-  Email.send({
-    Host : "smtp.gmail.com",
-    Username : "hammadansari567@gmail.com",
-    Password : "H100004291578749A",
-    To : 'ansarimotors1@gmail.com',
-    From : document.getElementById('email').value,
-    Subject : "Now contact from gnetourism.com",
-    Body : "And this is the body"
-  }).then(
-  message => alert(message)
-);
-}
