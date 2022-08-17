@@ -66,8 +66,9 @@ section{
   h1{
     font-size: 4rem;
     color: $white;
-    
+
   }
+
 }
 
 .btn{
@@ -222,6 +223,7 @@ section{
   }
 }
 
+
 .about{
   display: flex;
   align-items: center;
@@ -236,38 +238,38 @@ section{
   // background-attachment: fixed;
   // text-align: center;
 
-//   .video-container{
-//     flex: 1 1 42rem;
+  // .video-container{
+  //   flex: 1 1 42rem;
 
 
-//     video{
-//       border-radius: 1rem;
-//       width: 100%;
+  //   video{
+  //     border-radius: 1rem;
+  //     width: 100%;
 
-//     }
+  //   }
 
-//     .controls{
-//       text-align: center;
-//       padding: 2rem 0;
-
-
-//       span{
-//         display: inline-block;
-//         height: 2rem;
-//         width: 2rem;
-//         border-radius: 50%;
-//         background: $white;
-//         cursor: pointer;
-//         margin: 0.7rem;
+  //   .controls{
+  //     text-align: center;
+  //     padding: 2rem 0;
 
 
-//         &:hover{
-//           background: $blue;
-//         }
-//       }
-//     }
+  //     span{
+  //       display: inline-block;
+  //       height: 2rem;
+  //       width: 2rem;
+  //       border-radius: 50%;
+  //       background: $white;
+  //       cursor: pointer;
+  //       margin: 0.7rem;
 
-//   }
+
+  //       &:hover{
+  //         background: $blue;
+  //       }
+  //     }
+  //   }
+
+  // }
 
   .content{
     // flex: 1 1 42rem;
