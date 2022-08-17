@@ -140,7 +140,7 @@ section{
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background:linear-gradient($black-bg, $black-bg), url(headerpic.jpg) no-repeat; // skipped the linear gradient 
+  background:linear-gradient($black-bg, $black-bg), url(headerpic.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -228,42 +228,49 @@ section{
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 5rem;
+  // background image starts here
+  // background:linear-gradient($black-bg, $black-bg), url(../Guide-nExplore-Tourism/banner.jpg) no-repeat; 
+  // background-size: cover;
+  // background-position: center;
+  // padding: 3rem 0;
+  // background-attachment: fixed;
+  // text-align: center;
 
-  .video-container{
-    flex: 1 1 42rem;
-
-
-    video{
-      border-radius: 1rem;
-      width: 100%;
-
-    }
-
-    .controls{
-      text-align: center;
-      padding: 2rem 0;
+//   .video-container{
+//     flex: 1 1 42rem;
 
 
-      span{
-        display: inline-block;
-        height: 2rem;
-        width: 2rem;
-        border-radius: 50%;
-        background: $white;
-        cursor: pointer;
-        margin: 0.7rem;
+//     video{
+//       border-radius: 1rem;
+//       width: 100%;
+
+//     }
+
+//     .controls{
+//       text-align: center;
+//       padding: 2rem 0;
 
 
-        &:hover{
-          background: $blue;
-        }
-      }
-    }
+//       span{
+//         display: inline-block;
+//         height: 2rem;
+//         width: 2rem;
+//         border-radius: 50%;
+//         background: $white;
+//         cursor: pointer;
+//         margin: 0.7rem;
 
-  }
+
+//         &:hover{
+//           background: $blue;
+//         }
+//       }
+//     }
+
+//   }
 
   .content{
-    flex: 1 1 42rem;
+    // flex: 1 1 42rem;
     margin-bottom: 5rem;
 
     span{
@@ -611,7 +618,7 @@ section{
 
   
 
-@media(max-width:450px){
+@media(max-width:400px){
 
   html{
     font-size: 50%;
@@ -620,8 +627,20 @@ section{
   .about.content h3{
     font-size: 3.5rem;
   }
-  .header.logo{
-    font-size: 1rem;
-  }
+  .header{
+
+    a{
+
+      .logo{
+
+        
+        span{
+              display: none;
+            }
+        
+        
+        }
+      } 
+    } 
 }
 
