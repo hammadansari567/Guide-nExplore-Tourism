@@ -220,6 +220,30 @@ section{
         flex: 1 1 15rem;
       }
     }
+    .note{
+
+
+      h2{
+      color: $light-color;
+      text-align: center;
+      border: 1px solid rgb(236, 63, 32);
+      border-radius: 2rem;
+      padding: 2px 5px;
+
+          span{
+            color: rgb(236, 63, 32);
+            
+            text-align: center;
+          }
+
+          
+          i{
+            font-size: large;
+            color: rgb(238, 255, 0);
+          }
+    }
+
+    }
   }
 }
 
@@ -230,8 +254,9 @@ section{
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 5rem;
-  // background image starts here
-  // background:linear-gradient($black-bg, $black-bg), url(../Guide-nExplore-Tourism/banner.jpg) no-repeat; 
+
+  // // background image starts here
+  // background:linear-gradient($black-bg, $black-bg), url(../alternate.jpeg) no-repeat; 
   // background-size: cover;
   // background-position: center;
   // padding: 3rem 0;
@@ -247,6 +272,8 @@ section{
   //     width: 100%;
 
   //   }
+  // }
+
 
   //   .controls{
   //     text-align: center;
@@ -282,7 +309,7 @@ section{
 
     h3{
       color: $white;
-      font-size: 3rem; // changed size from 4rem to 3rem
+      font-size: 4rem;
       margin-top: 0.5rem;
     }
 

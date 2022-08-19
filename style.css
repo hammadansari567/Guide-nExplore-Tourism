@@ -226,6 +226,24 @@ section {
           flex: 1 1 15rem;
 }
 
+.book-form form .note h2 {
+  color: #aaa;
+  text-align: center;
+  border: 1px solid #ec3f20;
+  border-radius: 2rem;
+  padding: 2px 5px;
+}
+
+.book-form form .note h2 span {
+  color: #ec3f20;
+  text-align: center;
+}
+
+.book-form form .note h2 i {
+  font-size: large;
+  color: #eeff00;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,40 +257,7 @@ section {
   margin-top: 5rem;
 }
 
-.about .video-container {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
-}
-
-.about .video-container video {
-  border-radius: 1rem;
-  width: 100%;
-}
-
-.about .video-container .controls {
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.about .video-container .controls span {
-  display: inline-block;
-  height: 2rem;
-  width: 2rem;
-  border-radius: 50%;
-  background: #fff;
-  cursor: pointer;
-  margin: 0.7rem;
-}
-
-.about .video-container .controls span:hover {
-  background: #29d9d5;
-}
-
 .about .content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
   margin-bottom: 5rem;
 }
 
@@ -283,7 +268,7 @@ section {
 
 .about .content h3 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 0.5rem;
 }
 
@@ -555,7 +540,7 @@ section {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   html {
     font-size: 50%;
   }
