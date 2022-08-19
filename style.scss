@@ -231,7 +231,7 @@ section{
       border-radius: 2rem;
       padding: 2px 5px;
 
-          span{
+          span {
             color: rgb(236, 63, 32);
             
             text-align: center;
@@ -319,6 +319,25 @@ section{
       font-size: 1.4rem;
       color: $light-color;
       line-height: 2;
+    }
+
+    a{
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      color: $light-color;
+      line-height: 2;
+
+
+      i{
+        color: $blue;
+        font-size: larger;
+      
+      }
+
+      .end{
+        color: rgb(238, 255, 0);
+        font-size: larger;
+      }
     }
 
   }

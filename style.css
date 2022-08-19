@@ -280,6 +280,23 @@ section {
   line-height: 2;
 }
 
+.about .content a {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.about .content a i {
+  color: #29d9d5;
+  font-size: larger;
+}
+
+.about .content a .end {
+  color: #eeff00;
+  font-size: larger;
+}
+
 .destination .box-container {
   display: -ms-grid;
   display: grid;
