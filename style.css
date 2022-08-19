@@ -227,6 +227,7 @@ section {
 }
 
 .book-form form .note h2 {
+  margin-top: 1rem;
   color: #aaa;
   text-align: center;
   border: 1px solid #ec3f20;
