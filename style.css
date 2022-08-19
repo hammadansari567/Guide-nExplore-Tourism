@@ -255,11 +255,11 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .about .content {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .about .content span {
